@@ -1,3 +1,5 @@
+import 'Person.dart';
+
 void main()
 {
   print("ssup "+getName());
@@ -5,5 +7,6 @@ void main()
 
 String getName()
 {
-  return "ada.";
+  var p = new Person("ada");
+  return p.getName();
 }
